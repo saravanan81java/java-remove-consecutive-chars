@@ -10,6 +10,7 @@ public class RemoveConsecutiveCharsSample {
         int k = 10;
 
         String result = removeConsecutiveChars(word, k);
+        System.out.println("Final word count: " + k);
         System.out.println("Final word: " + result);
     }
 
@@ -39,25 +40,7 @@ public class RemoveConsecutiveCharsSample {
         
         return sb.toString();
     }
-
-    // Helper class to store character and its count
-    private static class Pair {
-        char ch;
-        int count;
-
-        Pair(char ch, int count) {
-            this.ch = ch;
-            this.count = count;
-        }
-
-		@Override
-		public String toString() {
-			return "Pair [ch=" + ch + ", count=" + count + "]";
-		}
-        
-        
-    }
-    
+ 
     public static String removeConsecutiveCharsOld(String word, int k) {
         StringBuilder sb = new StringBuilder(word);
 
