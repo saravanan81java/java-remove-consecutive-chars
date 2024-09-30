@@ -86,5 +86,9 @@ public class RemoveConsecutiveCharsSample {
 
         return sb.toString();
     }
+    
+    //ptmxpmonvnytatktgvibctrhfpdbfcluyxrplhegwcbzwpmscjaflvwtbnyct
+    //ptmxpmonvnytatktgvibctrhfpdbfcluyxrplhegwcbzwmscjaflvwtbnyct
+    //ptmxpmonvnytatktgvibctrhfpdbfcluyxrplhegwcbzwmscjaflvwtbnyct
 
 }
