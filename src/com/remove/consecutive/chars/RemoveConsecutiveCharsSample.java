@@ -6,7 +6,7 @@ import java.util.Deque;
 public class RemoveConsecutiveCharsSample {
 	
 	public static void main(String[] args) {
-        String word = "ptmxpmonvnytatktgvibctrhfccccccccccpdbfcluyxrplhegwcbzwpppppppppppppppppppmmmmmmmmmmpmscjaflvwtbnyct";
+        String word = "ptmxpmonvnytatktgvibctrhfccccccccccpdbfcluyxrpsfasdbfasdhjflhegwcbzwpppppppppppppppppppmmmmmmmmmmpmscjaflvwtbnyct";
         int k = 10;
 
         String result = removeConsecutiveChars(word, k);
